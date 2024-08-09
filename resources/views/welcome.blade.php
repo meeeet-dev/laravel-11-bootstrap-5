@@ -16,10 +16,10 @@
                 <img src="{{ asset('assets/images/slider-1.webp') }}" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('assets/images/slider-2.webp') }}" class="d-block w-100" alt="...">
+                <img data-src="{{ asset('assets/images/slider-2.webp') }}" class="lazy d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('assets/images/slider-3.webp') }}" class="d-block w-100" alt="...">
+                <img data-src="{{ asset('assets/images/slider-3.webp') }}" class="lazy d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
